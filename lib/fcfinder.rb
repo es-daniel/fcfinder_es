@@ -1,5 +1,7 @@
-require "fcfinder_es/version"
-
-module FcfinderEs
-  # Your code goes here...
-end
+require 'fcfinder/version'
+require 'fileutils'
+require 'zip'
+require 'mini_magick'
+require 'fcfinder/engine'
+require 'fcfinder/zip_file_generator'
+require 'fcfinder/connector'
