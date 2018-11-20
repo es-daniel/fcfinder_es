@@ -1,7 +1,7 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fcfinder_es/version'
+require 'fcfinder/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fcfinder_es"
@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ Web file explorer for Rails. }
   spec.description   = %q{ You can use the file explorer to create folders such as cke tinymce you can quickly get integrated with the editor you will use the file explorer.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.homepage      = 'https://github.com/es-daniel/fcfinder_es'
+  spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

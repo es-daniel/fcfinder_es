@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    fcfinder_es (0.1.0)
+      mini_magick (~> 4.9.2)
+      rubyzip (~> 1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_magick (4.9.2)
+    rake (10.5.0)
+    rubyzip (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  fcfinder_es!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.4
