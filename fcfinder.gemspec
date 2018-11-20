@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fcfinder/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fcfinder"
+  spec.name          = 'fcfinder'
   spec.version       = Fcfinder::VERSION
   spec.authors       = ["DanielES"]
   spec.email         = ["danielelizondo12@gmail.com"]
