@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fcfinder_es (0.1.0)
+    fcfinder (0.1.0)
       mini_magick (~> 4.9.2)
       rubyzip (~> 1.1)
 
@@ -17,7 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  fcfinder_es!
+  fcfinder!
   rake (~> 10.0)
 
 BUNDLED WITH
