@@ -137,7 +137,7 @@ module Fcfinder
     def download(path)
       begin
         if File.directory?(path)
-          output_file = path.chomp('/')+'.zip'
+          output_file = "#{path.chomp('/')} #{ DateTime.now.strftime("%Y_%m_%d %I_%M_%S %p") }.zip"
           add_zip_file(path, output_file)
           file = set_path(output_file).sub('fcdir:/', '').split('/').join(':')
           type = path.chomp('/')+'.zip'
