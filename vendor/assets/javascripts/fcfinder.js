@@ -799,7 +799,7 @@
                             fnc.prepend_dialog(opts.i18n.faild_process,opts.i18n.error.download_error.format(data[2]),{type:"p",dialog_class:'danger'});
                         }
                         else{
-                            window.open(location+"/download?path=" + data.file);
+                            location.replace(location + "/download?path=" + data.file);
                             fcfinder.find(".right ul.widget li a.refresh").trigger("click");
                         }
                     }});
