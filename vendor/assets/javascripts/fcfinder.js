@@ -743,7 +743,9 @@
                 dir.prepend(html);
             }
             dir.find("input").select();
-
+            $("input[name='fcfinder[directory_name]']").keyup(function() {
+                $(this).val($(this).val().replace(/([{}<>'\[\]\/+?""%`\\])/g,''))
+            });
             return false;
         });
 
@@ -1050,8 +1052,10 @@
                     field[0].setSelectionRange(0,(field.val().length-(field.val().split(".").slice(-1).toString().length+1)));
                 }
 
-
             }
+            $("#file_rename #file_name").keyup(function() {
+                $(this).val($(this).val().replace(/([{}<>'\[\]\/+?""%`\\])/g,''))
+            });
             return false;
         });
 
