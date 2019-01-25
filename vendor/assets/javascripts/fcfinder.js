@@ -744,7 +744,7 @@
             }
             dir.find("input").select();
             $("input[name='fcfinder[directory_name]']").keyup(function() {
-                $(this).val($(this).val().replace(/([{}<>'\[\]\/+?""%`\\])/g,''))
+                $(this).val($(this).val().replace(/([{}<>'\[\]\/+""%`\\])/g,''))
             });
             return false;
         });
@@ -1054,7 +1054,7 @@
 
             }
             $("#file_rename #file_name").keyup(function() {
-                $(this).val($(this).val().replace(/([{}<>'\[\]\/+?""%`\\])/g,''))
+                $(this).val($(this).val().replace(/([{}<>'\[\]\/+""%`\\])/g,''))
             });
             return false;
         });
